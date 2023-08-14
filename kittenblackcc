@@ -3,7 +3,7 @@
 local Settings = {
     rewrittenmain = {
         Enabled = true,
-        Key = "q", -- // Key to enable / disable
+        Key = "e", -- // Key to enable / disable
         DOT = true, -- // Keep on
         AIRSHOT = true, -- // Airshot func
         NOTIF = KittenBlackNotif, -- // Wether to show notifications or not i would not turn off
