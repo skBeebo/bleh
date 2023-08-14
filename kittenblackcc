@@ -15,7 +15,7 @@ local Settings = {
  
 local SelectedPart = "HumanoidRootPart"
 local Prediction = true
-local PredictionValue = 0.121943271237681279820932120
+local PredictionValue = PredictionKittenBlack
  
  
     local AnchorCount = 0
