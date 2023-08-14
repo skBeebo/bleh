@@ -1,11 +1,11 @@
 local Settings = {
     rewrittenmain = {
         Enabled = true, --// Leave This True
-        Key = "E", --// Keybind To Lock
+        Key = "e", --// Keybind To Lock
         DOT = DotBoolean, --// show the actual dot
         AIRSHOT = true, --// airshot func idk why u would use
-        NOTIF = true, --// show notifcations when ur locking
-        AUTOPRED = true, --// changes prediction based on ping
+        NOTIF = NotifBoolean, --// show notifcations when ur locking
+        AUTOPRED = AutoPredBoolean, --// changes prediction based on ping
         FOV = math.huge, --// wtf is this
         RESOVLER = false --// this doesnt even have a resolver yet
     }
@@ -14,7 +14,7 @@ local Settings = {
  
 local SelectedPart = "HumanoidRootPart" --// LowerTorso, UpperTorso, Head
 local Prediction = true
-local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be Off
+local PredictionValue = PredictionRedDot --// Change Prediction,  AutoPrediction Must Be Off
  
  
     local AnchorCount = 0
