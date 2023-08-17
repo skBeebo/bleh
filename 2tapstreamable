@@ -6,7 +6,7 @@ getgenv().Silent = {
         WallCheck = true,
         FOV = {
             Radius = 2TapFovRadius,
-            Visible = true
+            Visible = 2TapShowFOV
         }
     }
 }
