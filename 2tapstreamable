@@ -1,12 +1,12 @@
 getgenv().Silent = {
     Setting = {
         IsTargetting = true,
-        Prediction = 2TapStreamPredValue,
+        Prediction = TwoTapStreamPredValue,
         TargetPart = "HumanoidRootPart",
         WallCheck = true,
         FOV = {
-            Radius = 2TapFovRadius,
-            Visible = 2TapShowFOV
+            Radius = TwoTapFovRadius,
+            Visible = TwoTapShowFOV
         }
     }
 }
