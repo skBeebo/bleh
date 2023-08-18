@@ -12,8 +12,8 @@ getgenv().Yuth = {
     Tracer = {
         Key = "C",
         Enabled = true,
-        Prediction = 0.025,
-        Smoothness = 1,
+        Prediction = YuthCamlockPred,
+        Smoothness = YuthCamlockSmoothness,
     },
     Checks = {
         Death = true,
