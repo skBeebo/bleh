@@ -68,7 +68,7 @@ local Tonka = {
 		AntiGroundShots = TonkaSilentAntiGroundShots
     },
     FOV = {
-        Visible = TonkaShowSilentFOV,
+        Visible = true,
         Radius = 10,
         GunFOV =  {
 			Enabled = true,
