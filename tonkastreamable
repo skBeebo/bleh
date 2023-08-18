@@ -4,7 +4,7 @@ getgenv().TONKA = {
 			AIM_PART = "UpperTorso",
 			CHECK_IF_JUMPED_AIMPART = "HumanoidRootPart",
 			KEYBIND = "e",
-			DISTANCE = TonkaDistance, --studs
+			DISTANCE = 600, --studs
 			ENABLED = true,
 			CHECK_IF_JUMPED = TonkaJumpCheck
 		},
@@ -61,7 +61,7 @@ local Tonka = {
         ClosestPart = true,
         Keybind = "b",
 		DistanceDivided = 2 -- this divides the dides the distance of the closest body part so how far or close your mouse has to be from the next body part (2, 0.5, and 1.5 recommended) use 1 for regular
-    },
+    }, -- checked
     Config = {
         UnlockOnDeath = TonkaSilentUnlockOnDeath,
         UnlockOnYourDeath = TonkaSilentUnlockOnKill,
