@@ -25,7 +25,7 @@ getgenv().Yuth = {
         ShakeValue = 10.5,
     },
     Macro = {
-        Enabled = true,
+        Enabled = false,
         Keybind = "q",
     },
 }
