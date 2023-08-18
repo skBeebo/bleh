@@ -46,7 +46,7 @@ getgenv().TONKA = {
 			}
 		},
 		FOV = {
-			SHOW_FOV = TonkaShowFOV,
+			SHOW_FOV = false,
 			FOV_SIDES = 25,
 			FOV_COLOR = "White", -- Red Black Purple Pink Yellow Grey Blue White
 		}
@@ -69,9 +69,9 @@ local Tonka = {
     },
     FOV = {
         Visible = TonkaShowSilentFOV,
-        Radius = TonkaSilentFOVRadius,
+        Radius = 10,
         GunFOV =  {
-			Enabled = TonkaGunFOV,
+			Enabled = true,
 			["Double-Barrel SG"] = {
 				["FOV"] = TonkaDBFov
 			},
