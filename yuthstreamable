@@ -21,7 +21,7 @@ getgenv().Yuth = {
         NoGroundShots = true,
     },
     Misc = {
-        Shake = true,
+        Shake = YuthShake,
         ShakeValue = 10.5,
     },
     Macro = {
