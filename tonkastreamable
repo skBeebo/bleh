@@ -73,31 +73,31 @@ local Tonka = {
         GunFOV =  {
 			Enabled = TonkaGunFOV,
 			["Double-Barrel SG"] = {
-				["FOV"] = 15
+				["FOV"] = TonkaDBFov
 			},
 			["Revolver"] = {
-				["FOV"] = 10
+				["FOV"] = TonkaRevFov
 			},
 			["SMG"] = {
-				["FOV"] = 23
+				["FOV"] = TonkaSMGFov
 			},
 			["Shotgun"] = { 
-				["FOV"] = 20
+				["FOV"] = TonkaShotgunFov
 			},
 			["Rifle"] = {
-				["FOV"] = 20
+				["FOV"] = TonkaRifleFov
 			},
 			["TacticalShotgun"] = {
-				["FOV"] = 24
+				["FOV"] = TonkaTacFov
 			},
 			["Silencer"] = {
-				["FOV"] = 17
+				["FOV"] = TonkaSilencerFov
 			}, 
 			["AK47"] = { 
-				["FOV"] = 10
+				["FOV"] = TonkaAk47Fov
 			}, 
 			["AR"] = { 
-				["FOV"] = 10
+				["FOV"] = TonkaARFov
 			}, 
 			-- // add your own 
 		}
